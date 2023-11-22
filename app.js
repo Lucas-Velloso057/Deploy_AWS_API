@@ -6,8 +6,6 @@ const jwt = require('jsonwebtoken')
 
 const app = express()
 
-//akjsndanfawdno
-
 //config json
 
 app.use(express.json())
