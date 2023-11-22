@@ -134,7 +134,7 @@ function checkToken(req, res, next){
   }
 
 }
-//teste
+
 
 //Credentials
 const DB_user = process.env.DB_USER;
