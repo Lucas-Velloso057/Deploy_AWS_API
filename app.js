@@ -6,9 +6,14 @@ const jwt = require('jsonwebtoken')
 
 const app = express()
 
-//config json
+//config
 
 app.use(express.json())
+
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  next();
+});
 
 //models
 
